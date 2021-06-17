@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+.Navbar{
+    display: flex;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    height: 125px;
+    border-bottom: 2px solid black;
+}
+
+.website-name{
+    display: flex;
+    margin-left: 25px;
+    text-decoration: none;
+}
+
+.navbar-buttons{
+    display: flex;
+    margin-right: 25px;
+    justify-content: space-around;
+    /* border: 1px solid red; */
+    width: 35%;
+}
+
+.navbar-ref{
+    text-decoration: none;
+}
+
+.mr{
+    font-family: 'Livvic', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: black;
+}
+
+.malonzo{
+    font-family: 'Livvic', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: #867D32;
+}
+
+.navbar-button-text{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color:#557A95;
+}
