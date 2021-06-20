@@ -1,0 +1,79 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    height: 15%;
+    margin-top: 10%;
+    border-top: 2px solid black;
+    padding-bottom: 2%;
+    padding-top: 1%;
+}
+
+.left-footer{
+    /* border: 1px green solid; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-footer{
+    /* border: 1px solid blue; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Merriweather', serif;
+    color: #999B9D;
+
+}
+
+.right-footer > h2{
+    font-size: 18px;
+    font-weight: 400;
+    /* border: 1px solid orange; */
+    width: 70%;
+    text-align: justify;
+    margin: 5% 10% 2% 10%;
+}
+
+.left-footer h1{
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-size: 40px;
+    display: flex;
+    margin-left: 7%;
+}
+
+.left-footer-content{
+    font-size: 13px;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.left-footer-content h2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    margin: 0%;
+}
+
+.footer-last{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-last h2{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer-links{
+    /* border: 1px solid brown; */
+    display: flex;
+    width: 25%;
+    justify-content: space-around;
+}
+
+.footer-links img{
+    width: 100%;
+    filter: invert(74%) sepia(5%) saturate(129%) hue-rotate(169deg) brightness(83%) contrast(85%);
+}

@@ -9,11 +9,12 @@
     align-items: center;
     height: 125px;
     border-bottom: 2px solid black;
+    background-color: rgb(255, 255, 255);
 }
 
 .website-name{
     display: flex;
-    margin-left: 25px;
+    margin-left: 3%;
     text-decoration: none;
 }
 
@@ -46,5 +47,6 @@
 .navbar-button-text{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    font-size: 25px;
     color:#557A95;
 }
