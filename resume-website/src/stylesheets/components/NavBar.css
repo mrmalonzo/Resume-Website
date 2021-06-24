@@ -26,10 +26,6 @@
     width: 35%;
 }
 
-.navbar-ref{
-    text-decoration: none;
-}
-
 .mr{
     font-family: 'Livvic', sans-serif;
     font-weight: 400;
@@ -45,6 +41,7 @@
 }
 
 .navbar-button-text{
+    text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 25px;
