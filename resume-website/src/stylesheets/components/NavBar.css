@@ -23,7 +23,7 @@
     margin-right: 25px;
     justify-content: space-around;
     /* border: 1px solid red; */
-    width: 35%;
+    width: 30%;
 }
 
 .mr{
@@ -40,10 +40,30 @@
     color: #867D32;
 }
 
+.malonzo:hover{
+    animation: logo-animation 2s linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes logo-animation{
+    0%{ color:#867D32;}
+    25%{ color:#3c8632;}
+    50%{color: #557A95;}
+    75%{color: #558895;}
+    100%{ color:#867D32;}
+}
+
+
 .navbar-button-text{
     text-decoration: none;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     font-size: 25px;
     color:#557A95;
+    transition: color 0.5s ease;
 }
+
+.navbar-button-text:hover{
+    color:#867D32;
+}
+
